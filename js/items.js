@@ -48,8 +48,7 @@ const timeline = gsap
 
 function switchToItems() {
   timeline[DOM.items.isVisible ? 'reverse' : 'play']();
-  // DOM.items.section.classList[DOM.items.isVisible ? 'remove' : 'add']('frame__about-item--current');
-  // DOM.home.section.classList[DOM.home.isVisible ? 'remove' : 'add']('frame__about-item--current');
+
 
   DOM.home.isVisible = !DOM.home.isVisible;
   DOM.items.isVisible = !DOM.items.isVisible;
