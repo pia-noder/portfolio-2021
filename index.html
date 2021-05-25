@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Charlotte Amiot | développeuse front-end | Portfolio</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    
+    <header class=" frame__about-item frame__about-item--current header">
+        <div class="glass">
+            <div id="header-txt">
+                <div class="txtIntro">Votre entreprise à le vent en poupe. Vous avez plein de nouveaux projets à développer, de nouveaux clients à satisfaire et pour ça vous voulez embaucher. 
+                    <div>Mais qui ? </div>
+                    Il existe plein de développeurs sur le marché avec de bonnes compétences techniques.  Mais face aux difficultés, aux murs technologiques à surmonter, seule la passion et l’engagement font la différence.
+                </div>
+                <h1>Charlotte</h1>
+                <h2 id="txtAnim"></h2>
+                  
+            </div> 
+            <div class="switchOnBtn">
+                <button id="onBtn">
+                    <img class="onOffIcon" src="/assets/helm.svg" alt="icon en forme de bouton On/Off">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+
+                        <!-- to hide the path, it is usually wrapped in a <defs> element -->
+                        <!-- <defs> -->
+                            <path id="MyPath" fill="none" d="M 0 50 a 40 40 90 0 0 100 0 a 40 40 90 0 0 -100 0">
+                        <animateTransform attributeName="transform" begin="0s" dur="12s" type="rotate" from="0 50 50" to="360 50 50" repeatCount="indefinite"></animateTransform>
+                      <!-- </defs> -->
+                      </path>
+                        <text>
+                          <textPath xlink:href="#MyPath">
+                           SEE
+                          </textPath>
+                        </text>
+                        <text transform="rotate(180 50 50)">
+                          <textPath xlink:href="#MyPath">
+                           PROJECTS
+                          </textPath>
+                        </text>
+                    </svg>
+                </button>
+         
+            </div>
+        </div>
+        
+    </header>
+    <section class="frame__about-item items">
+        
+        <div class="SNS">
+            <ul>
+                <li><a href="https://github.com/pia-noder" target="”_blank”"><img src="/assets/github.svg" alt="icon GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/charlotte-amiot/" target="”_blank”"><img src="/assets/linkedin.svg" alt="icon LinkedIn"></a></li>
+                <li><a href="" target="”_blank”"><img src="/assets/mail.svg" alt="Icon en forme de lettre"></a></li>
+            </ul>
+        </div>
+        <div class="switchOffBtn">
+            <img class="cloud" src="/assets/cloud 1.svg" alt="">
+            <button id="offBtn"><img class="onOffIcon" src="/assets/helm.svg" alt="icon en forme de bouton On/Off"></button>
+            <img class="cloud" src="/assets/cloud 1.svg" alt="">
+        </div>
+        <div class="title">
+            <img class="cloud" src="/assets/cloud 1.svg" alt="">
+            <h2>Mes projets</h2>
+        </div>
+        <div class="projects">
+
+            <img class="curvy-line upLine" src="/assets/ligne_haut.svg" alt="ligne bleue foncée">
+            <img class="curvy-line downLine" src="/assets/ligne_bas.svg" alt="ligne bleue claire">
+            <img class="img-boat" src="./assets/sailing.svg" alt="bateau à voile">
+
+            
+
+            <div class="card-upline">
+                <div class="card">
+                    <a href="https://pia-noder.github.io/CharlotteAmiot_2_12102020/" target="”_blank”">
+                        <figure>
+                            <img src="/assets/reservia.png" alt="site réservia">
+                        </figure>
+                        <figcaption>
+                            <h3>Réservation | Hébergements</h3>
+                            <p class="project-details">Intégration de la maquette pour un site de réservation de logements (projet de formation).</p>
+                        </figcaption>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://pia-noder.github.io/CharlotteAmiot_3_29102020/" target="”_blank”">
+                        <figure>
+                            <img src="./assets/ohmyfood.jpg" alt="site réservia">
+                        </figure>
+                        <figcaption>
+                            <h3>Réservation | Restaurant</h3>
+                            <p class="project-details">Intégration de la maquette pour une application de réservation (projet de formation). </p>
+                        </figcaption>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://pia-noder.github.io/CharlotteAmiot_4_11112020/" target="”_blank”">
+                        <figure>
+                            <img src="/./assets/chouette.jpg" alt="site réservia">
+                        </figure>
+                        <figcaption>
+                            <h3>Vitrine | web design</h3>
+                            <p class="project-details">Optimisation du SEO et de l’accessibilité (projet de formation).</p>
+                        </figcaption>
+                    </a>
+                </div>
+            
+            
+                <div class="card">
+                    <a href="https://pia-noder.github.io/CharlotteAmiot_2_12102020/" target="”_blank”">
+                        <figure>
+                            <img src="./assets/Orinoco.jpg" alt="site e-commerce Orinoco">
+                        </figure>
+                        <figcaption>
+                            <h3>E-commerce | Jouet</h3>
+                            <p class="project-details">Création du front-end pour le site e-commerce d'Orinoco (projet de formation).</p>
+                        </figcaption>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://pia-noder.github.io/CharlotteAmiot_3_29102020/" target="”_blank”">
+                        <figure>
+                            <img src="./assets/Piquante_edit.jpg" alt="Application d'avis so Pecocko">
+                        </figure>
+                        <figcaption>
+                            <h3>Avis | Food</h3>
+                            <p class="project-details">Création du serveur et de l'API pour un site d'avis (projet de formation).</p>
+                        </figcaption>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://pia-noder.github.io/CharlotteAmiot_2_12102020/" target="”_blank”">
+                        <figure>
+                            <img src="./assets/groupomania.jpg" alt="Réseau social d'entreprise pour groupomania">
+                        </figure>
+                        <figcaption>
+                            <h3>Réseau social</h3>
+                            <p class="project-details">Création d’un réseau social pour l’entreprise Groupomania (projet de formation).</p>
+                        </figcaption>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    
+    
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/items.js"></script>
+   
+</body>
+</html>
